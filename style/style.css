@@ -95,7 +95,7 @@ nav a{
     font-size: 1rem;
     margin-top: 10px;
 }
-.tour-contant button{
+.tour-contant button , .btn-primary{
     font-size: 1rem;
     border-radius: 8px;
     padding: 20px;
@@ -173,4 +173,79 @@ nav a{
     background: rgba(41, 206, 246, 0.05);
 
 
+}
+
+/* discount card related style */
+.discount-section{
+    margin: 100px 135px;
+    text-align: center;
+
+}
+.discount-main-section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.discount-section h3{
+    color: #131318;
+    font-size: 2.3rem;
+}
+.discount-section p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+}
+.discount-section button{
+    margin-top: 60px;
+}
+.discount-contant{
+    background-image: url(../Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.discount-card{
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    width: 50%;
+    text-align: start;
+    position: relative;
+    left: 370px;
+    top: 50px;
+}
+/* form-section */
+.form-section{
+    display: flex;
+    margin: 100px 135px;
+}
+
+/* place contant */
+footer{
+    margin-top: 100px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 110px 300px;
+}
+.place-contant{
+    display: flex;
+    margin: auto 135px;
+    gap: 30px;
+}
+.footer-img img{
+    height: 24px;
+    width: 24px;
+}
+.footer-img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.footer-h3{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+    color: #5A5A5D;
+    font-size: 1rem;
 }
