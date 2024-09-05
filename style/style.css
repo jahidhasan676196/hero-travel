@@ -1,0 +1,130 @@
+/* font related style */
+.mulish{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/* shared style */
+.primary-color{
+    color: #FF5400;
+}
+
+/* header related style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 130px;
+}
+.nav-header{
+    display: flex;
+    gap: 17px;
+}
+.nav-header h3{
+    color: #131318;
+    font-size: 2.2rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+nav a{
+    text-decoration: none;
+    color:  #424247;
+    font-size: 1.2rem;
+}
+
+
+/* banner related style */
+.banner-section{
+    background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    margin: 50px 135px;
+    text-align: center;
+    height: 500px;
+    border-radius: 16px;
+    padding: 60px 200px;
+}
+.banner-section h3{
+    color: #FFF;
+    font-size: 4rem;
+}
+.banner-section p{
+    color: #FFF;
+    font-size: 1rem;
+}
+.btn-section{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 60px;
+}
+.btn-section button{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+.btn-section .k{
+    background: #FF5400;
+    color:#FFF;
+}
+
+/* main section related style */
+/* tour section */
+.tour-section{
+    display: flex;
+    margin: 0px 135px;
+    gap: 60px;
+}
+.tour-contant{
+    padding: 0px;
+}
+.tour-contant h3{
+    color: #131318;
+    font-size: 2.2rem;
+}
+.tour-contant p , li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.tour-contant button{
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 20px;
+    border: none;
+    width: 170px;
+    height: 50px;
+    background: #FF5400;
+    color:#FFF;
+}
+
+/* destination section */
+.destination-section{
+    text-align: center;
+    margin: 100px 135px;
+}
+.destination-section img{
+    width: auto;
+}
+.destination-section h2{
+    color: #131318;
+    font-size: 2.3rem;
+}
+.destination-section p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+}
+.frist-div , .second-div , .third-div{
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
