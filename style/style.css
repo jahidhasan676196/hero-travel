@@ -217,9 +217,40 @@ nav a{
 .form-section{
     display: flex;
     margin: 100px 135px;
+    gap: 24px;
 }
-
-/* place contant */
+.form-section h4{    
+    color: #131318;
+    font-size: 1.5rem;
+}
+.form-section p{    
+    color: #5A5A5D;
+    font-size: 1rem;
+}
+.form-section input {    
+    margin-top: 24px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 20px 100px 20px 20px;
+}
+.form-form{
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+#btn{
+    margin-top: 24px;
+}
+.img-div h5{
+    color: #FFF;
+    font-size: 1.5rem;
+}
+.img-div h3{
+    color: #FFF;
+    font-size: 2rem;
+}
+/* footer related style */
 footer{
     margin-top: 100px;
     background: rgba(19, 19, 24, 0.05);
