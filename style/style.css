@@ -5,7 +5,9 @@
   font-weight: weight;
   font-style: normal;
 }
-
+.hide{
+    display: none;
+}
 /* shared style */
 .primary-color{
     color: #FF5400;
@@ -29,6 +31,7 @@ nav ul{
     display: flex;
     align-items: center;
     gap: 40px;
+    list-style: none;
 }
 nav a{
     text-decoration: none;
@@ -279,4 +282,175 @@ footer{
 footer p{
     color: #5A5A5D;
     font-size: 1rem;
+}
+
+/* responsive for mobail debvice */
+@media screen and (max-width:576px) {
+    main{
+        padding: 0;
+        margin: 10px;
+    }
+    header{
+        margin: 0;
+        padding: 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        margin: 0;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner-section{
+        margin: 0;
+        padding: 20px 10px;
+        object-fit: cover;
+   
+    }
+    .btn-section{
+        flex-direction: column;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-section h3 {
+        font-size: 2rem;
+    }
+    .tour-section {
+        flex-direction: column;
+        padding: 10px;
+        margin: 0px;
+    }
+    .destination-section{
+        padding: 0;
+        margin: 0;
+    }
+    .frist-div, .second-div, .third-div{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .chose-section{
+        margin: 0px;
+        padding: 10px;
+    }
+    .card-section{
+        flex-direction: column;
+    }
+    #card-3 {
+        width: 100%;
+    }
+    .card{
+        padding: 0;
+    }
+    .discount-section {
+        margin: 0px;
+        padding: 0px;
+    }
+    .discount-main-section{
+        flex-direction: column;
+    }
+    .discount-card{
+        position: relative;
+        padding: 20px;
+        left: 150px;
+        top: 100px;
+    }
+    .place-contant{
+        flex-direction: column;
+        margin: 0px;
+        gap: 10px;
+        padding: 10px;
+    }
+    .form-section{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
+/*  */
+@media screen and (min-width:576px) and (max-width:992px) {
+    main{
+        margin: 20px;
+        padding: 0px;
+    }
+    nav{
+        margin: 0;
+    }
+    nav ul{
+        gap: 20px;
+    }
+    .banner-section{
+        margin: 0;
+        padding: 100px;
+        object-fit: cover;
+    }
+    .btn-section{
+        margin: 0;
+        padding: 0;
+    }
+    .banner-section h3 {
+        font-size: 2rem;
+    }
+    .tour-section {
+        flex-direction: column;
+        padding: 10px;
+        margin: 0px;
+    }
+    .destination-section{
+        padding: 0;
+        margin: 0;
+    }
+    .frist-div, .second-div, .third-div{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        gap: 15px;
+        margin-top: 10px;
+    }
+    .chose-section{
+        margin: 0px;
+        padding: 10px;
+    }
+    .card-section{
+        flex-direction: column;
+    }
+    #card-3 {
+        width:auto;
+        padding: 20px;
+    }
+    .card{
+        padding: 20px;
+    }
+    .card{
+        padding: 0;
+    }
+    .discount-section {
+        margin: 0px;
+        padding: 0px;
+    }
+    .discount-main-section{
+        flex-direction: column;
+    }
+    .discount-card{
+        position: relative;
+        padding: 20px;
+        left: 360px;
+        top: 150px;
+    }
+    .place-contant{
+        flex-direction: column;
+        margin: 0px;
+        gap: 10px;
+        padding: 10px;
+    }
 }
