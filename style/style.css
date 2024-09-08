@@ -300,8 +300,9 @@ footer p{
         margin: 0;
     }
     nav ul{
-        flex-direction: column;
-        gap: 10px;
+        margin: 20px none;
+        padding: 0px;
+        gap: 5px;
     }
     .banner-section{
         margin: 0;
